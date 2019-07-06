@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header id='main-header'></header>
+
+
+   <div class='logo'>
+   <br><img src="img/logo.gif"></br>
+   </div>
+      
+   <br>
+   <form>
+          <label for='Name'>Name Your Tamagotchi:</label>
+
+          <br>
+          <input type='text' id='input'>
+          </br>
+          <input type='submit' id='btn' value="Let's Play"> 
+   </form>
+   </br>
+   
+   <section>
+   <div class="container">
+        <div id='tomName'>Name:</div>
+        <div id='tomAge'>Age:</div>
+        <div id='tomHunger'>Hunger:</div>
+        <button id="btnFeed">Feed</button>
+        <div id='tomSleep'>Sleepiness:</div>
+        <button id="btnEnergyBoost">Energy Boost</button>
+        <div id='tomBoredom'>Boredom:</div>
+        <button id="btnPlay">Play</button> 
+   </div>
+   </section>
+
+   <div class='tamagotchiObject'>
+       <img class='tamagotchi' src="img/tamagotchi.gif" alt="">
+   </div>
+   
+   <script src="js/app.js"></script>
+</body>
+</html>

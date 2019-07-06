@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: aqua;
+
+}
+
+label {
+
+    display:flex block;
+    justify-content: flex-end;
+}
+
+
+.logo {
+    text-align: center;
+    
+}
+.container {
+    text-align: left;
+}
+
+.tamagotchiObject {
+    text-align: center;
+}
+
+.tamagotchi {
+    width: 150px;
+    height: 150px;
+}
+
+#btn {
+    background-color: rgb(255, 60, 60);
+    border-color: cornsilk;
+    border-radius: 7px;
+    width: 130px;
+}
+
+
+
